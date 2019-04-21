@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="zft:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/zft_jar</output-path>
+    <root id="archive" name="zft.jar">
+      <element id="module-output" name="test" />
+    </root>
+  </artifact>
+</component>
