@@ -7,6 +7,10 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        if (args.length < 4) {
+            System.out.println("Количество аргументов не верно");
+            return;
+        }
         String readFile = args[0];
         String writeFile = getParameter(args[1]) + readFile.substring(readFile.lastIndexOf("\\") + 1);
         String contentType = getParameter(args[2]);
